@@ -1,0 +1,20 @@
+Perl6 Literals:
+
+You can check and see what type a literal is by doing the following:
+	(LITERAL).WHAT()
+
+Bool Literals: Bool::True, Bool::False
+
+Num Literals:
+	Int:  123, -123, 0x1af5
+	Rat:  50.5, -512.5, 4/3
+	Complex:
+
+Code Literals:
+	Block: { ; } { print 'asdf'; }
+	Sub: sub{}, sub(){}, macro(){}
+
+Str Literals: 'asdf', "asdf"
+Hash Literals: { 'a' => 'b', 'b' => 'c' }
+Array Literals: [1,2,3,4,5], (1,2,3), (1..10), (), <1 2 3 4>
+Junction Literals: 3|4|5, 3&4&5

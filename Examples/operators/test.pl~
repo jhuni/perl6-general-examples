@@ -1,0 +1,7 @@
+use v6;
+
+my $i = 0;
+(do {
+	$i++;
+	'Hello World'.say;
+}) while( $i < 5 );

@@ -1,0 +1,5 @@
+use v6;
+
+macro MESSAGE()         {q:code {  0  }; }
+macro WINNERS_MESSAGE() {q:code {  1  }; }
+macro LOSERS_MESSAGE()  {q:code {  2  }; }

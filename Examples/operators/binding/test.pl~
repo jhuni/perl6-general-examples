@@ -1,0 +1,8 @@
+use v6;
+
+my $pi ::= 3.14159265358979323846;
+my &increment := sub(Rat $value) {
+	return $value + 1;
+}
+
+print &increment($pi);

@@ -1,0 +1,3 @@
+#!/usr/bin/perl
+
+("\n" x 10).say;

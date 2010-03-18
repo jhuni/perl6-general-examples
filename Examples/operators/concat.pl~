@@ -1,0 +1,8 @@
+use v6;
+
+my Str $abcd = 'a' ~ 'b' ~ 'c' ~ 'd';
+$abcd.say();
+
+['a', 'b', 'c', 'd'].join.say();
+
+

@@ -1,0 +1,11 @@
+use v6;
+
+sub flatten (Str $first, Str $second, Str $third) {
+   say "1:$first 2:$second 3:$third";
+}
+
+my @list = ("a", "b", "c");
+
+flatten(*@list); # same as flatten (@a[0], @a[1], @a[2]);
+
+
